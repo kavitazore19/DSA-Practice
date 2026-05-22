@@ -1,20 +1,20 @@
 /*
-  Two pointer approach
+  Two pointer approch
   Time complexity -> O(n)
   Space Complexity -> O(1)
   
   */
 
 #include<iostream>
-#include<cstring>
 using namespace std;
 
+//Function
 bool CheckPalindrome(char name[]){
 
     //Two pointer approach
 
     int i=0;
-    int j = strlen(name)-1;
+    int j = '\0' - 1;
 
     while(i < j){
 
